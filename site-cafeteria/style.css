@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: 'Fraunces';
+}
+h2{
+    font-family: 'Oswald'; 
+}
+p{
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 35px;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+header{
+    background-color:#604829;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+
+.logo-coffe{
+    width:80px;
+    height: auto;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    transition-duration: 0.2s;
+}
+.menu ul li:hover{
+    transform: scale(1.1);
+}
+
+.menu ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: #c4a47c;
+    text-shadow:  #000 2px 5px 2px;
+    font-weight: 600;
+    font-family: 'oswald';
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.menu img{
+    display: none;
+}
+
+.banner{
+    height: 950px;
+    background-image: url(assets/parallax-imagem1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.banner h1{
+    color:#fff;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.informacoes{
+    padding: 80px 0;
+}
+
+.informacoes h2{
+    margin-bottom: 50px;
+    color: #c4a47c;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.informacoes p{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.informacoes-s1 p{
+    max-width: 985px;
+}
+
+.informacoes-s2 p{
+    max-width: 980px;
+}
+
+.informacoes-s3 p{
+    max-width: 985px;
+}
+
+.informacoes-img{
+    height: 480px;
+}
+
+.informacoes-img h3{
+    font-family: 'Fraunces';
+    background-color: #604829;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 8px 35px;
+    font-style: italic;
+}
+
+.informacoes-img-s1{
+    background-image: url(assets/parallax-imagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.informacoes-img-s2{
+    background-image: url(assets/parallax-imagem3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.contatos{
+    height: 950px;
+    background-image: url(assets/parallax-imagem4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contatos iframe{
+    width: 950px;
+}
+
+.contatos h2{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    background-color: #604829;
+    color: #fff;
+    padding: 10px 100px;
+}
+
+.contatos ul{
+    background-color: #604829;
+    padding: 10px 80px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.contatos ul li{
+    list-style: none;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Oswald';
+    font-size: 16px;
+    text-shadow:  #000 2px 5px 5px;
+    text-align: center;
+}
+
+.contatos ul li a{
+    font-family: 'Oswald';
+    color: #fff;
+    text-decoration: none;
+}
+
+.contatos ul li a:hover{
+    text-decoration: underline;
+}
+
+.horarios{
+    height: 800px;
+    background-image: url(assets/cafeteria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.horarios h2{
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.horarios ul li{
+    color: #fff;
+    font-family: 'Oswald';
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.horarios ul li h3{
+    width: 100px;
+    text-align: left;
+}
+
+.list-linha{
+    width: 600px;
+    height: 0;
+    border: 1px solid #ffffff80;
+}
+
+.horarios ul li span{
+    width: 140px;
+    font-weight: 600;
+    color: #c4a47c;
+    text-align: right;
+}
+
+.horarios ul li p{
+    width: 140px;
+    font-weight: 600;
+    font-family: 'Oswald';
+    color: #acacac;
+    text-align: right;
+}
+
+.rodape{
+    background-color: #000;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape p{
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#dev-nome{
+    color: #c4a47c;
+}
+
+#seta-topo{
+    width:40px;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    z-index: 999;
+    display: none;
+}
+
+@media(max-width:1024px){
+    .banner{
+        height: 800px;
+    }
+
+    .banner h1{
+        text-align: center;
+        text-shadow: 0px 0px 5px #000;
+    }
+
+    .informacoes p{
+        max-width: 700px;
+    }
+
+    .informacoes-img{
+        height: 350px;
+    }
+
+    .contatos iframe{
+        width: 700px;
+    }
+
+    .list-linha{
+        width: 400px;
+    }
+}
+
+@media(max-width:767px){
+    .menu img{
+        display: block;
+    }
+
+    .menu ul{
+        height: 0;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 40px;
+        top: 60px;
+        padding: 0;
+        box-shadow: 0 0 3px #000;
+        overflow: hidden;
+    }
+
+    .menu-ativo{
+        height: 140px !important;
+    }
+
+    .menu ul li a{
+        font-size: 18px;
+        letter-spacing: 4px;
+        text-shadow: 0px 1px 1px #000;
+    }
+
+    .menu ul li:hover{
+        transform: scale(1);
+    }
+
+    .banner{
+        height: 600px;
+    }
+    
+    .banner h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .informacoes{
+        padding: 40px 15px;
+    }
+
+    .informacoes h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .informacoes-img{
+        height: 250px;
+    }
+
+    .informacoes-img h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contatos h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .contatos iframe{
+        width: 320px;
+    }
+
+    .contatos ul{
+        padding: 10px 20px;
+    }
+
+    .horarios h2{
+        text-align: center;
+    }
+
+    .list-linha{
+        width: 80px;
+    }
+
+    .horarios{
+        height: 550px;
+    }
+
+    .rodape{
+        padding: 20px;
+        
+    }
+
+    .copy{
+        font-size: 12px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .dev{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
